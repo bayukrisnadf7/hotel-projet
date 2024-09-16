@@ -8,8 +8,8 @@ const Page = () => {
       <div className="w-1/5">
         <SidebarView />
       </div>
-      <div className="w-full flex flex-col">
-        <div className="w-full p-5 flex flex-row justify-center gap-5">
+      <div className="w-full flex flex-col mx-4 mt-5">
+        <div className=" p-5 flex flex-row justify-center gap-5">
           <CardDashboard
             icons={
               <AiFillCarryOut

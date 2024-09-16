@@ -1,26 +1,17 @@
 "use client";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
+import React from "react";
 import { Bar } from "react-chartjs-2";
-// Register required components
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+import { Chart as ChartJS } from "chart.js/auto";
 
 const BarChart = () => {
   return (
-    <div className="block w-1/2 h-1/2 mx-5 p-5  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <div className="w-full mt-5 h-1/2 p-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <Bar
           data={{
-            labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
             datasets: [{
                 label: 'My First Dataset',
-                data: [65, 59, 80, 81, 56, 55, 40],
+                data: [65, 59, 80, 81, 56, 55, 40,40,40,40,40,40],
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
                   'rgba(255, 159, 64, 0.2)',
@@ -42,6 +33,7 @@ const BarChart = () => {
                 borderWidth: 1
               }]            
           }}
+          width={550}
         />
     </div>
   );
