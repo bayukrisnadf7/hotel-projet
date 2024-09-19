@@ -1,11 +1,13 @@
 import { FaGoogle } from "react-icons/fa";
 import Input from "./Input";
 import Link from "next/link";
+import Image from "next/image";
 const LoginView = () => {
   return (
     <>
-      <div className="w-full h-screen flex justify-center items-center overflow-hidden">
-        <div className="flex flex-col">
+      <div className="w-full flex justify-between items-center">
+        <Image src={"/img/undraw_secure_login_pdn4.png"} className="mx-10" width={500} height={500}></Image>
+        <div className="flex flex-col mx-20 mt-10">
           <h1 className="font-bold text-2xl text-color-primary">Login</h1>
           <p className="text-sm mt-1">Hi, Welcome back</p>
           <button className="bg-color-secondary p-2 text-white rounded-lg flex gap-5 items-center mt-5 justify-center text-sm">

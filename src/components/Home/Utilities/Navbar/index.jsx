@@ -10,9 +10,11 @@ const Navbar = () => {
       </Link>
       <div>
         <ul className="flex gap-5">
+          <Link href={"/"}>
           <li className="p-2 hover:bg-color-primary rounded-lg hover:text-white cursor-pointer">
             HOME
           </li>
+          </Link>
           <li className="p-2 hover:bg-color-primary rounded-lg hover:text-white cursor-pointer">
             ABOUT
           </li>
@@ -29,12 +31,12 @@ const Navbar = () => {
       </div>
       <div className="flex gap-5 mx-20">
         <Link href="/auth/register">
-          <button className="border-2 border-color-primary p-2 w-28 rounded-lg text-color-primary hover:bg-color-primary hover:text-white">
+          <button className="border border-color-primary p-2 w-28 rounded-lg text-color-primary hover:bg-color-primary hover:text-white">
             REGISTER
           </button>
         </Link>
         <Link href="/auth/login">
-          <button className="bg-color-primary p-2 rounded-lg text-white w-28 hover:border-2 hover:border-color-primary hover:text-color-primary hover:bg-white">
+          <button className="bg-color-primary p-2 rounded-lg text-white w-28 hover:border hover:border-color-primary hover:text-color-primary hover:bg-white">
             LOGIN
           </button>
         </Link>
