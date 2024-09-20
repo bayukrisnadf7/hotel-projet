@@ -6,9 +6,9 @@ import Image from "next/image";
 const RegisterView = () => {
     return (
         <>
-        <div className="w-full flex justify-between items-center">
-          <Image src={"/img/undraw_secure_login_pdn4.png"} className="mx-10 mt-10" width={500} height={500}></Image>
-          <div className="flex flex-col mx-20 mt-28">
+        <div className="w-full flex md:flex-row flex-col md:justify-between items-center">
+          <Image src={"/img/undraw_secure_login_pdn4.png"} className="md:mx-10 mt-10 md:block hidden" width={500} height={500}></Image>
+          <div className="flex flex-col md:mx-20 mt-28">
             <h1 className="font-bold text-2xl text-color-primary">Register</h1>
             <p className="text-sm mt-1">Please fill the form below</p>
             <div className="mt-3">
