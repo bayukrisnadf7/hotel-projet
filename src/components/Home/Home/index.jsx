@@ -2,11 +2,20 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 const HomeView = () => {
   return (
-    <div className="flex mt-36 items-center justify-between">
-      <div className="w-full mx-20">
-        <h1 className="text-6xl font-bold">Book Your</h1>
-        <h1 className="text-7xl font-bold text-color-primary">Favorite Hotel</h1>
-        <p className="w-1/2 mt-5">
+    <div className="flex md:flex-row flex-col md:mt-36 mt-10 items-center justify-between md:mx-20 mx-5">
+      <div className="w-full">
+      <div className="md:hidden mx-10">
+        <Image
+          src="/img/undraw_apartment_rent_o0ut.png"
+          alt="home"
+          width={900}
+          height={900}
+          className="w-full h-full"
+        />
+      </div>
+        <h1 className="md:text-6xl text-3xl font-bold">Book Your</h1>
+        <h1 className="md:text-7xl text-4xl font-bold text-color-primary">Favorite Hotel</h1>
+        <p className="md:w-1/2 mt-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           reiciendis rerum, est error eum quisquam saepe possimus dolore quod
           voluptates.
@@ -16,7 +25,7 @@ const HomeView = () => {
           <FaArrowRight/>
         </button>
       </div>
-      <div className="mx-10">
+      <div className="md:block hidden mx-10">
         <Image
           src="/img/undraw_apartment_rent_o0ut.png"
           alt="home"
