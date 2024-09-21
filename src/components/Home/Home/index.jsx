@@ -13,7 +13,7 @@ const HomeView = () => {
           className="w-full h-full"
         />
       </div>
-        <h1 className="md:text-6xl text-3xl font-bold">Book Your</h1>
+        <h1 className="md:text-6xl text-3xl font-bold md:mt-0 mt-5">Book Your</h1>
         <h1 className="md:text-7xl text-4xl font-bold text-color-primary">Favorite Hotel</h1>
         <p className="md:w-1/2 mt-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
