@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full fixed top-0">
       <div className="md:h-20 h-16 w-full flex items-center justify-between relative">
         <Link href="/">
           <h1 className="md:mx-20 text-color-primary text-2xl font-bold mx-5">
@@ -26,9 +26,11 @@ const Navbar = () => {
                 HOME
               </li>
             </Link>
+            <a href={"#about"}>
             <li className="p-2 hover:bg-color-primary rounded-lg hover:text-white cursor-pointer">
               ABOUT
             </li>
+            </a>
             <li className="p-2 hover:bg-color-primary rounded-lg hover:text-white cursor-pointer">
               PRODUCT
             </li>

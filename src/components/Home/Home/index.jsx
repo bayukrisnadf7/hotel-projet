@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 const HomeView = () => {
   return (
-    <div className="flex md:flex-row flex-col md:mt-36 mt-10 items-center justify-between md:mx-20 mx-5">
+    <div className="flex md:flex-row flex-col md:mt-48 mt-10 items-center justify-between md:mx-20 mx-5">
       <div className="w-full">
       <div className="md:hidden mx-10">
         <Image
