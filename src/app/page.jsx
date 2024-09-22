@@ -7,10 +7,15 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <HomeView />
-      {/* <div className="mt-40">
+      <section id="home">
+        <HomeView />
+      </section>
+      <section>
+
+      </section>
         <AboutView />
-      </div> */}
+      <div className="mt-40">
+      </div>
     </>
   );
 }
