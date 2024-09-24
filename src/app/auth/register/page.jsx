@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <>
       <Navbar />
-      <div className="md:mx-32 mt-36">
+      <div className="md:mx-32 md:mt-24">
         <RegisterView />
       </div>
     </>

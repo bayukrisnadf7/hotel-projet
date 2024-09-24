@@ -7,15 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section id="home">
-        <HomeView />
-      </section>
-      <section>
-
-      </section>
-        <AboutView />
-      <div className="mt-40">
-      </div>
+      <HomeView />
     </>
   );
 }
