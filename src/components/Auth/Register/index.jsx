@@ -59,7 +59,7 @@ const RegisterView = () => {
           <h1 className="font-bold text-2xl text-color-primary">Register</h1>
           <p className="text-sm mt-1">Please fill the form below</p>
           <form onSubmit={handleData}>
-            <div className="mt-3">
+            <div className="mt-3 flex flex-col">
               <label className="text-sm">Email</label>
               <input
                 type="email"
@@ -87,7 +87,7 @@ const RegisterView = () => {
               </Link>
             </div>
             <button
-              className="bg-color-primary p-2 text-white rounded-lg mt-5"
+              className="bg-color-primary p-2 text-white rounded-lg mt-5 w-28"
               type="submit"
               disabled={loading}
             >
